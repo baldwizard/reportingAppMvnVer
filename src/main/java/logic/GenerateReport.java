@@ -105,12 +105,12 @@ public class GenerateReport {
                 "---------------------------\n"+
                 "Amount Outgoing (Buy) By Date\n"+
                 "---------------------------\n");
-        amountOfSellByDate.forEach((k,v)->System.out.println("date:"+k+" value"+v));
+        amountOfSellByDate.forEach((k,v)->System.out.println("date:"+k+" value:"+v));
         System.out.println(
                 "\n----------------------------\n"+
                 "Amount Incoming (Sell) By Date\n"+
                 "----------------------------\n");
-        amountOfBuyByDate.forEach((k,v)->System.out.println("date:"+k+" value"+v));
+        amountOfBuyByDate.forEach((k,v)->System.out.println("date:"+k+" value:"+v));
         /*System.out.println(
                 "\n---------------------------------\n"+
                 "Ranking entities By Sell amount  \n"+
